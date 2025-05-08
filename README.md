@@ -1,55 +1,54 @@
 # 🚺 Women’s Grievance Redressal System – Features
-🔐 Secure Login System
+## 🔐 Secure Login System
 
 Separate login & registration for users and staff
 
 Passwords securely stored and verified
 
-📝 Complaint Management
+## 📝 Complaint Management
 
 Users can file new complaints through a modal dialog
 
 All previous complaints are listed in the user dashboard
 
-📊 Staff Dashboard
+## 📊 Staff Dashboard
 
 View all user-submitted grievances
 
 Update complaint status and provide feedback
 
-🧠 AI-Powered Classification
+## 🧠 AI-Powered Classification
 
-Fine-tuned Mistral-7B model classifies complaints into categories like:
+SVM model classifies complaints into categories like:
 
-Workplace Harassment
+-Workplace Harassment
 
-Gender Violence
+-Gender Violence
 
-Education Rights Violation
+-Education Rights Violation
 
-Domestic Abuse
+-Domestic Abuse
 
-Child Marriage, etc.
+-Child Marriage, etc.
 
-📁 Dataset Handling
+## 📁 Dataset Handling
 
 JSON dataset with description and category fields
 
 Automatically tokenized and preprocessed using Hugging Face Transformers
 
-⚙️ Model Training
+## ⚙️ Model Training
 
-LoRA-based fine-tuning of Mistral-7B on custom data
+Training implemented with PyTorch and Hugging Face Trainer
 
-Training pipeline implemented with PyTorch and Hugging Face Trainer
-
-🌐 Web Integration
+## 🌐 Web Integration
 
 Frontend built to match a modern, user-friendly theme
 
 Flask and Ngrok used for local deployment and testing
 
-🗄️ Database Integration
+## 🗄️ Database Integration
 
 PostgreSQL stores user details, complaints, and classification results
 
+# Model Accuracy - 75% 
